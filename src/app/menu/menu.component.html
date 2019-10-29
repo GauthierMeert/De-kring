@@ -1,0 +1,149 @@
+<div class="menu" id="menu">
+    <div class="container">
+        <div class="title-centered">
+            <h2>Menu</h2>
+            <div class="line"></div>
+        </div>
+        <div class="tab">
+            <div class="test" style="display: inline-block;">
+                <button class="tablinks" (click)="openCity($event, 'Voorgerechten')" id="defaultOpen">Voorgerechten</button>
+                <button class="tablinks" (click)="openCity($event, 'Hoofdgerechten')">Hoofdgerechten</button>
+                <button class="tablinks" (click)="openCity($event, 'Desserten')">Nagerechten</button>
+            </div>
+        </div>
+
+        <div id="Voorgerechten" class="tabcontent">
+            <div style="width: 50%; margin: auto;">
+                <div style="margin-bottom: 10px; display: -webkit-flex; display: flex;">
+                    <h3>Kaaskroketten</h3>
+                    <div style="-webkit-flex: auto; flex: auto; border: 1px dashed #c8c8c8; height: 2px; margin-top:10px;"></div>
+                    <div style="margin-left:10px;">
+                        € 13
+                    </div>
+                </div>
+                <div style="margin-bottom: 10px; display: -webkit-flex; display: flex;">
+                    <h3>Garnaalkroketten</h3>
+                    <div style="-webkit-flex: auto; flex: auto; border: 1px dashed #c8c8c8; height: 2px; margin-top:10px;"></div>
+                    <div style="margin-left:10px;">
+                        € 16
+                    </div>
+                </div>
+                <div style="margin-bottom: 10px; display: -webkit-flex; display: flex;">
+                    <h3>Escargots</h3>
+                    <div style="-webkit-flex: auto; flex: auto; border: 1px dashed #c8c8c8; height: 2px; margin-top:10px;"></div>
+                    <div style="margin-left:10px;">
+                        € 13
+                    </div>
+                </div>
+                <div style="margin-bottom: 10px; display: -webkit-flex; display: flex;">
+                    <h3>Carpaccio</h3>
+                    <div style="-webkit-flex: auto; flex: auto; border: 1px dashed #c8c8c8; height: 2px; margin-top:10px;"></div>
+                    <div style="margin-left:10px;">
+                        € 16 / 23
+                    </div>
+                </div>
+                <div style="margin-bottom: 10px; display: -webkit-flex; display: flex;">
+                    <h3>Pata Negra</h3>
+                    <div style="-webkit-flex: auto; flex: auto; border: 1px dashed #c8c8c8; height: 2px; margin-top:10px;"></div>
+                    <div style="margin-left:10px;">
+                        € 17 / 24
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="Hoofdgerechten" class="tabcontent">
+            <div style="width: 50%; margin: auto;">
+                <div style="margin-bottom: 10px; display: -webkit-flex; display: flex;">
+                    <h3>Americain</h3>
+                    <div style="-webkit-flex: auto; flex: auto; border: 1px dashed #c8c8c8; height: 2px; margin-top:10px;"></div>
+                    <div style="margin-left:10px;">
+                        € 21
+                    </div>
+                </div>
+                <div style="margin-bottom: 10px; display: -webkit-flex; display: flex;">
+                    <h3>Americain façon carpaccio</h3>
+                    <div style="-webkit-flex: auto; flex: auto; border: 1px dashed #c8c8c8; height: 2px; margin-top:10px;"></div>
+                    <div style="margin-left:10px;">
+                        € 21
+                    </div>
+                </div>
+                <div style="margin-bottom: 10px; display: -webkit-flex; display: flex;">
+                    <h3>Steak natuur</h3>
+                    <div style="-webkit-flex: auto; flex: auto; border: 1px dashed #c8c8c8; height: 2px; margin-top:10px;"></div>
+                    <div style="margin-left:10px;">
+                        € 25
+                    </div>
+                </div>
+                <div style="margin-bottom: 10px; display: -webkit-flex; display: flex;">
+                    <h3>Rosbeef</h3>
+                    <div style="-webkit-flex: auto; flex: auto; border: 1px dashed #c8c8c8; height: 2px; margin-top:10px;"></div>
+                    <div style="margin-left:10px;">
+                        (vanaf 4 pers) € 27
+                    </div>
+                </div>
+                <div style="margin-bottom: 10px; display: -webkit-flex; display: flex;">
+                    <h3>Chinese fondue</h3>
+                    <div style="-webkit-flex: auto; flex: auto; border: 1px dashed #c8c8c8; height: 2px; margin-top:10px;"></div>
+                    <div style="margin-left:10px;">
+                        (vanaf 2 pers) € 27
+                    </div>
+                </div>
+                <div style="margin-bottom: 10px; display: -webkit-flex; display: flex;">
+                    <h3>Côte à l'os</h3>
+                    <div style="-webkit-flex: auto; flex: auto; border: 1px dashed #c8c8c8; height: 2px; margin-top:10px;"></div>
+                    <div style="margin-left:10px;">
+                        (vanaf 2 pers) € 27,50
+                    </div>
+                </div>
+                <div style="margin-bottom: 10px; display: -webkit-flex; display: flex;">
+                    <h3>Tagliata</h3>
+                    <div style="-webkit-flex: auto; flex: auto; border: 1px dashed #c8c8c8; height: 2px; margin-top:10px;"></div>
+                    <div style="margin-left:10px;">
+                        € 27,50
+                    </div>
+                </div>
+                <div style="margin-bottom: 10px; display: -webkit-flex; display: flex;">
+                    <h3>Entrecôte minute</h3>
+                    <div style="-webkit-flex: auto; flex: auto; border: 1px dashed #c8c8c8; height: 2px; margin-top:10px;"></div>
+                    <div style="margin-left:10px;">
+                        € 26
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="Desserten" class="tabcontent">
+            <div style="width: 50%; margin: auto;">
+                <div style="margin-bottom: 10px; display: -webkit-flex; display: flex;">
+                    <h3>Dame blanche</h3>
+                    <div style="-webkit-flex: auto; flex: auto; border: 1px dashed #c8c8c8; height: 2px; margin-top:10px;"></div>
+                    <div style="margin-left:10px;">
+                        € 8,50
+                    </div>
+                </div>
+                <div style="margin-bottom: 10px; display: -webkit-flex; display: flex;">
+                    <h3>Café glacé</h3>
+                    <div style="-webkit-flex: auto; flex: auto; border: 1px dashed #c8c8c8; height: 2px; margin-top:10px;"></div>
+                    <div style="margin-left:10px;">
+                        € 8,50
+                    </div>
+                </div>
+                <div style="margin-bottom: 10px; display: -webkit-flex; display: flex;">
+                    <h3>Sabayon</h3>
+                    <div style="-webkit-flex: auto; flex: auto; border: 1px dashed #c8c8c8; height: 2px; margin-top:10px;"></div>
+                    <div style="margin-left:10px;">
+                        (vanaf 2 pers) € 9
+                    </div>
+                </div>
+                <div style="margin-bottom: 10px; display: -webkit-flex; display: flex;">
+                    <h3>Irish coffee</h3>
+                    <div style="-webkit-flex: auto; flex: auto; border: 1px dashed #c8c8c8; height: 2px; margin-top:10px;"></div>
+                    <div style="margin-left:10px;">
+                        € 8,50
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,75 @@
+.menu {
+    padding: 100px 0px 70px;
+    h3 {
+        position: relative;
+        color: #232323;
+        font-size: 16px;
+        font-weight: 600;
+        padding-right: 10px;
+        letter-spacing: 1px;
+        margin-bottom: 0px;
+        background-color: #ffffff;
+    }
+}
+
+.tab {
+    overflow: hidden;
+    display: block;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+/* Style the buttons inside the tab */
+
+.tab .tablinks {
+    background-color: inherit;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 13px;
+    line-height: 24px;
+    opacity: 0.5;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    margin-right: -3px;
+}
+
+.tab .tablinks.active {
+    border-bottom: #232323;
+    border-bottom-style: solid;
+}
+
+
+
+/* Change background color of buttons on hover */
+
+.tab button:hover {
+    opacity: 1;
+}
+
+/* Style the tab content */
+
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+}
+
+.tabcontent {
+    animation: fadeEffect 1s;
+    /* Fading effect takes 1 second */
+}
+
+/* Go from zero to full opacity */
+
+@keyframes fadeEffect {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}

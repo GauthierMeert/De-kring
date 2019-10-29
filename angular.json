@@ -29,7 +29,8 @@
             ],
             "styles": [
               "node_modules/bootstrap/dist/css/bootstrap.min.css",
-              "src/styles.less"
+              "src/styles.less",
+              "node_modules/snazzy-info-window/dist/snazzy-info-window.css"
             ],
             "scripts": [
               "node_modules/jquery/dist/jquery.min.js",

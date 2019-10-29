@@ -1,3 +1,24 @@
-<agm-map [latitude]="lat" [longitude]="lng" style="height: 500px;">
-  <agm-marker [latitude]="lat" [longitude]="lng"></agm-marker>
-</agm-map>
+<div class="content">
+  <div class="container">
+    <agm-map style="height: 400px" [latitude]="50.89" [longitude]="3.557514" [zoom]="11" [styles]="styles">
+      <agm-marker [latitude]="50.831233" [longitude]="3.557514" [iconUrl]='{url:    "//developers.google.com/maps/documentation/javascript/examples/full/images/beachflag.png" }'>
+        <agm-snazzy-info-window [maxWidth]="500" [maxHeight]="500" [closeWhenOthersOpen]="true" [isOpen]="true" [shadow]="true">
+          <ng-template>
+            <div class="contact">
+              Open dinsdag tot en met zaterdag:
+              <br>
+              <br>
+              12u00 - 13u30 en 18u00 - 21u30
+              <br>
+              <br> Kortrijkstraat 44
+              <br> 9790 Wortegem-Petegem
+              <br>
+              <br>
+              <span style="font-weight:bold;">+32 (0)55 30 40 21</span>
+            </div>
+          </ng-template>
+        </agm-snazzy-info-window>
+      </agm-marker>
+    </agm-map>
+  </div>
+</div>

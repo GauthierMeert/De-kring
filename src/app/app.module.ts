@@ -1,6 +1,7 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { AgmCoreModule } from '@agm/core';
+import { AgmSnazzyInfoWindowModule } from '@agm/snazzy-info-window';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -12,6 +13,7 @@ import { CollapseModule } from 'ngx-bootstrap/collapse';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { ScrollToModule } from '@nicky-lenaers/ngx-scroll-to';
 import { MenuComponent } from './menu/menu.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -19,12 +21,14 @@ import { MenuComponent } from './menu/menu.component';
     NavbarComponent,
     HomeComponent,
     ContactComponent,
-    MenuComponent
+    MenuComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
     BrowserAnimationsModule,
     AppRoutingModule,
+    AgmSnazzyInfoWindowModule,
     AgmCoreModule.forRoot({
       apiKey: 'AIzaSyBBalo-V_AYswpU206WwQQiecU1YRJiM0A'
     }),
